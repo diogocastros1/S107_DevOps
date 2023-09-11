@@ -58,7 +58,8 @@ jobs:
   notificacao:
 
     runs-on: ubuntu-latest
-
+    env:
+      EMAIL_LIST: 'diogoantonio@ges.inatel.br'
     steps:
     - name: Executa comandos
       uses: actions/checkout@v3
