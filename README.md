@@ -35,7 +35,7 @@ docker pull nome_da_imagem
 5. Construir uma imagem docker com um dockerfile:
 
 ```
-docker build --tag="tag_para_imagem" diretorio_dockerfile
+docker build --tag="tag_para_imagem" pasta_do_dockerfile
 ```
 
 6. Executar o container utilizando docker-compose
